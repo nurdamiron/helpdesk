@@ -1,0 +1,12 @@
+{
+  "app": "App",
+  "job": "Job",
+  "employee": "Employee",
+  "travel": "Travel",
+  "invoice": "Invoice",
+  "blog": {
+    "title": "Blog",
+    "caption": "Custom keyboard shortcuts."
+  },
+  "subheader": "Sub header"
+}
