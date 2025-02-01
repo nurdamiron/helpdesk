@@ -46,7 +46,7 @@ export function NavMobile({ data, open, onClose, slots, sx }) {
             pl: 2.5,
           }}
         >
-          <Logo />
+          {/* <Logo /> */}
         </Box>
       )}
 

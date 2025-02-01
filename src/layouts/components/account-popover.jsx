@@ -50,7 +50,7 @@ export function AccountPopover({ data = [], sx, ...other }) {
       <MenuList sx={{ p: 1, my: 1, '& li': { p: 0 } }}>
         {data.map((option) => {
           const rootLabel = pathname.includes('/dashboard') ? 'Home' : 'Dashboard';
-          const rootHref = pathname.includes('/dashboard') ? '/' : paths.dashboard.general.file;
+          const rootHref = pathname.includes('/dashboard') ? '/' : paths.dashboard.blank;
 
           return (
             <MenuItem key={option.label}>

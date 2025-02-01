@@ -7,7 +7,7 @@ import { DashboardContent } from 'src/layouts/dashboard';
 
 // ----------------------------------------------------------------------
 
-export function BlankView({ title = 'Blank', sx }) {
+export function BlankView({ title = 'Заявки', sx }) {
   const renderContent = () => (
     <Box
       sx={[

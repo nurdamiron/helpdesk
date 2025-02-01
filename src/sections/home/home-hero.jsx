@@ -74,10 +74,10 @@ export function HomeHero({ sx, ...other }) {
           },
         ]}
       >
-        <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
+        {/* <Box component="span" sx={{ width: 1, opacity: 0.24 }}>
         Поднимите 
-        </Box>
-        ваш бизнес
+        </Box> */}
+        Сервис поддержки
         <Box
           component={m.span}
           animate={{ backgroundPosition: '200% center' }}
@@ -95,7 +95,7 @@ export function HomeHero({ sx, ...other }) {
             ml: { xs: 0.75, md: 1, xl: 1.5 },
           }}
         >
-           на новый уровень
+            нового уровня
         </Box>
       </Box>
     </m.div>
@@ -111,7 +111,7 @@ export function HomeHero({ sx, ...other }) {
           [theme.breakpoints.up(lgKey)]: { fontSize: 20, lineHeight: '36px' },
         }}
       >
-        {`Современный инструмент бизнес-аналитики. \nБыстрый анализ, точные решения, отличные результаты.`}
+        {`Современный инструмент для службы поддержки. \n`}
       </Typography>
     </m.div>
   );
@@ -155,7 +155,7 @@ export function HomeHero({ sx, ...other }) {
         <Stack spacing={2.5} sx={{ alignItems: 'center' }}>
           <Button
             component={RouterLink}
-            href={paths.dashboard.general.file}
+            href={paths.dashboard.blank}
             color="inherit"
             size="large"
             variant="contained"

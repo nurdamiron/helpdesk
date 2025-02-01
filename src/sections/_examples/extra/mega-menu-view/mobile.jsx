@@ -28,7 +28,7 @@ export function DemoMegaMenuMobile() {
         ),
         topArea: (
           <Box sx={{ px: 2.5, py: 3 }}>
-            <Logo />
+            {/* <Logo /> */}
           </Box>
         ),
         bottomArea: (

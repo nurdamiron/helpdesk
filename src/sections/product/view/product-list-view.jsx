@@ -306,7 +306,7 @@ export function ProductListView() {
         <CustomBreadcrumbs
           heading="Список"
           links={[
-            { name: 'Дэшборд', href: paths.dashboard.general.file },
+            { name: 'Дэшборд', href: paths.dashboard.blank },
             { name: 'Продукты', href: paths.dashboard.product.root },
             { name: 'Список' },
           ]}
@@ -346,7 +346,7 @@ export function ProductListView() {
         <CustomBreadcrumbs
           heading="Список"
           links={[
-            { name: 'Дэшборд', href: paths.dashboard.general.file },
+            { name: 'Дэшборд', href: paths.dashboard.blank },
             { name: 'Продукты', href: paths.dashboard.product.root },
             { name: 'Список' },
           ]}
@@ -373,7 +373,7 @@ export function ProductListView() {
         <CustomBreadcrumbs
           heading="Список"
           links={[
-            { name: 'Дэшборд', href: paths.dashboard.general.file },
+            { name: 'Дэшборд', href: paths.dashboard.blank },
             { name: 'Продукты', href: paths.dashboard.product.root },
             { name: 'Список' },
           ]}

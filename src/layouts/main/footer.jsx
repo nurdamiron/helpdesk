@@ -56,7 +56,7 @@ export function Footer({ sx, layoutQuery = 'md', ...other }) {
           [theme.breakpoints.up(layoutQuery)]: { textAlign: 'unset' },
         })}
       >
-        <Logo />
+        {/* <Logo /> */}
 
         <Grid
           container
@@ -166,7 +166,7 @@ export function HomeFooter({ sx, ...other }) {
       {...other}
     >
       <Container>
-        <Logo />
+        {/* <Logo /> */}
         <Box sx={{ mt: 1, typography: 'caption' }}>
           © Все права защищены.
           <br /> powered by

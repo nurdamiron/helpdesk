@@ -44,68 +44,68 @@ export const navData = [
   /**
    * Overview
    */
-  {
-    subheader: 'Анализ',
-    items: [
-      { title: 'Дашборд', path: paths.dashboard.general.file, icon: ICONS.dashboard },
-      // { title: 'Дашборд', path: paths.dashboard.root, icon: ICONS.dashboard },
-      // { title: 'Финансы', path: paths.dashboard.general.ecommerce, icon: ICONS.ecommerce },
-      { title: 'Продажи', path: paths.dashboard.general.analytics, icon: ICONS.analytics },
-      { title: 'Учет', path: paths.dashboard.general.banking, icon: ICONS.banking },
-      // { title: 'Booking', path: paths.dashboard.general.booking, icon: ICONS.booking },
-      // { title: 'Course', path: paths.dashboard.general.course, icon: ICONS.course },
-    ],
-  },
+  // {
+  //   subheader: 'Анализ',
+  //   items: [
+  //     { title: 'Дашборд', path: paths.dashboard.blank, icon: ICONS.dashboard },
+  //     // { title: 'Дашборд', path: paths.dashboard.root, icon: ICONS.dashboard },
+  //     // { title: 'Финансы', path: paths.dashboard.general.ecommerce, icon: ICONS.ecommerce },
+  //     { title: 'Продажи', path: paths.dashboard.general.analytics, icon: ICONS.analytics },
+  //     { title: 'Учет', path: paths.dashboard.general.banking, icon: ICONS.banking },
+  //     // { title: 'Booking', path: paths.dashboard.general.booking, icon: ICONS.booking },
+  //     // { title: 'Course', path: paths.dashboard.general.course, icon: ICONS.course },
+  //   ],
+  // },
   /**
    * Management
    */
-  {
-    subheader: 'Управление',
-    items: [
-      {
-        title: 'Сотрудники',
-        path: paths.dashboard.employee.list,
-        icon: ICONS.employee,
-        // children: [
-        //   // { title: 'Профиль', path: paths.dashboard.employee.root },
-        //   // { title: 'Карточки', path: paths.dashboard.employee.cards },
-        //   { title: 'Список', path: paths.dashboard.employee.list },
-        //   // { title: 'Cоздать', path: paths.dashboard.employee.new },
-        //   // { title: 'Изменить', path: paths.dashboard.employee.demo.edit },
-        //   // { title: 'Настройка аккаунта', path: paths.dashboard.employee.account },
-        // ],
-      },
-      {
-        title: 'Продукты',
-        path: paths.dashboard.product.root,
-        icon: ICONS.product,
-        // children: [
-        //   { title: 'Список', path: paths.dashboard.product.root },
-        //   { title: 'Детали', path: paths.dashboard.product.demo.details },
-        //   { title: 'Создать', path: paths.dashboard.product.new },
-        //   { title: 'Изменить', path: paths.dashboard.product.demo.edit },
-        // ],
-      },
-      {
-        title: 'Заказы',
-        path: paths.dashboard.order.root,
-        icon: ICONS.order,
-        // children: [
-        //   { title: 'Список', path: paths.dashboard.order.root },
-        //   { title: 'Details', path: paths.dashboard.order.demo.details },
-        // ],
-      },
-      {
-        title: 'Бухгалтерия',
-        path: paths.dashboard.invoice.root,
-        icon: ICONS.invoice,
-        // children: [
-        //   { title: 'List', path: paths.dashboard.invoice.root },
-        //   { title: 'Details', path: paths.dashboard.invoice.demo.details },
-        //   { title: 'Create', path: paths.dashboard.invoice.new },
-        //   { title: 'Edit', path: paths.dashboard.invoice.demo.edit },
-        // ],
-      },
+  // {
+  //   subheader: 'Управление',
+  //   items: [
+      // {
+      //   title: 'Сотрудники',
+      //   path: paths.dashboard.employee.list,
+      //   icon: ICONS.employee,
+      //   // children: [
+      //   //   // { title: 'Профиль', path: paths.dashboard.employee.root },
+      //   //   // { title: 'Карточки', path: paths.dashboard.employee.cards },
+      //   //   { title: 'Список', path: paths.dashboard.employee.list },
+      //   //   // { title: 'Cоздать', path: paths.dashboard.employee.new },
+      //   //   // { title: 'Изменить', path: paths.dashboard.employee.demo.edit },
+      //   //   // { title: 'Настройка аккаунта', path: paths.dashboard.employee.account },
+      //   // ],
+      // },
+      // {
+      //   title: 'Продукты',
+      //   path: paths.dashboard.product.root,
+      //   icon: ICONS.product,
+      //   // children: [
+      //   //   { title: 'Список', path: paths.dashboard.product.root },
+      //   //   { title: 'Детали', path: paths.dashboard.product.demo.details },
+      //   //   { title: 'Создать', path: paths.dashboard.product.new },
+      //   //   { title: 'Изменить', path: paths.dashboard.product.demo.edit },
+      //   // ],
+      // },
+      // {
+      //   title: 'Заказы',
+      //   path: paths.dashboard.order.root,
+      //   icon: ICONS.order,
+      //   // children: [
+      //   //   { title: 'Список', path: paths.dashboard.order.root },
+      //   //   { title: 'Details', path: paths.dashboard.order.demo.details },
+      //   // ],
+      // },
+      // {
+      //   title: 'Бухгалтерия',
+      //   path: paths.dashboard.invoice.root,
+      //   icon: ICONS.invoice,
+      //   // children: [
+      //   //   { title: 'List', path: paths.dashboard.invoice.root },
+      //   //   { title: 'Details', path: paths.dashboard.invoice.demo.details },
+      //   //   { title: 'Create', path: paths.dashboard.invoice.new },
+      //   //   { title: 'Edit', path: paths.dashboard.invoice.demo.edit },
+      //   // ],
+      // },
      
       // {
       //   title: 'Tour',
@@ -118,7 +118,7 @@ export const navData = [
       //     { title: 'Edit', path: paths.dashboard.tour.demo.edit },
       //   ],
       // },
-      { title: 'Файловый менеджер', path: paths.dashboard.fileManager, icon: ICONS.folder },
+      // { title: 'Файловый менеджер', path: paths.dashboard.fileManager, icon: ICONS.folder },
       // {
       //   title: 'Mail',
       //   path: paths.dashboard.mail,
@@ -130,15 +130,15 @@ export const navData = [
       //   ),
       // },
       // { title: 'Chat', path: paths.dashboard.chat, icon: ICONS.chat },
-      { title: 'Календарь', path: paths.dashboard.calendar, icon: ICONS.calendar },
-      { title: 'Канбан', path: paths.dashboard.kanban, icon: ICONS.kanban },
-    ],
-  },
+      // { title: 'Календарь', path: paths.dashboard.calendar, icon: ICONS.calendar },
+      // { title: 'Канбан', path: paths.dashboard.kanban, icon: ICONS.kanban },
+  //   ],
+  // },
   /**
    * Item State
    */
   {
-    subheader: 'Инструменты',
+    subheader: 'Главное',
     items: [
       // {
       //   // default roles : All roles can see this entry.
@@ -152,28 +152,28 @@ export const navData = [
       //   roles: ['employee', 'manager'],
       //   caption: 'Only admin can see this item',
       // },
-      {
-        title: 'Обучение',
-        path: paths.dashboard.post.root,
-        icon: ICONS.blog,
-        // children: [
-        //   { title: 'List', path: paths.dashboard.post.root },
-        //   { title: 'Details', path: paths.dashboard.post.demo.details },
-        //   { title: 'Create', path: paths.dashboard.post.new },
-        //   { title: 'Edit', path: paths.dashboard.post.demo.edit },
-        // ],
-      },
-      {
-        title: 'Вакансии',
-        path: paths.dashboard.job.root,
-        icon: ICONS.job,
-        // children: [
-        //   { title: 'List', path: paths.dashboard.job.root },
-        //   { title: 'Details', path: paths.dashboard.job.demo.details },
-        //   { title: 'Create', path: paths.dashboard.job.new },
-        //   { title: 'Edit', path: paths.dashboard.job.demo.edit },
-        // ],
-      },
+      // {
+      //   title: 'Обучение',
+      //   path: paths.dashboard.post.root,
+      //   icon: ICONS.blog,
+      //   // children: [
+      //   //   { title: 'List', path: paths.dashboard.post.root },
+      //   //   { title: 'Details', path: paths.dashboard.post.demo.details },
+      //   //   { title: 'Create', path: paths.dashboard.post.new },
+      //   //   { title: 'Edit', path: paths.dashboard.post.demo.edit },
+      //   // ],
+      // },
+      // {
+      //   title: 'Вакансии',
+      //   path: paths.dashboard.job.root,
+      //   icon: ICONS.job,
+      //   // children: [
+      //   //   { title: 'List', path: paths.dashboard.job.root },
+      //   //   { title: 'Details', path: paths.dashboard.job.demo.details },
+      //   //   { title: 'Create', path: paths.dashboard.job.new },
+      //   //   { title: 'Edit', path: paths.dashboard.job.demo.edit },
+      //   // ],
+      // },
       // {
       //   title: 'Level',
       //   path: '#/dashboard/menu_level',
@@ -241,7 +241,7 @@ export const navData = [
       //   icon: ICONS.external,
       //   info: <Iconify width={18} icon="prime:external-link" />,
       // },
-      // { title: 'Blank', path: paths.dashboard.blank, icon: ICONS.blank },
+      { title: 'Заявки', path: paths.dashboard.blank, icon: ICONS.blank },
     ],
   },
 ];

@@ -16,9 +16,9 @@ export function AuthSplitSection({
   method,
   methods,
   layoutQuery = 'md',
-  title = 'Manage the job',
+  title = 'Начни сейчас же',
   imgUrl = `${CONFIG.assetsDir}/assets/illustrations/illustration-dashboard.webp`,
-  subtitle = 'Эффективное управление бизнесом с аналитикой в реальном времени.',
+  subtitle = 'Эффективный инструмент для службы поддержки',
   ...other
 }) {
   return (

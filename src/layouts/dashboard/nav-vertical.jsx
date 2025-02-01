@@ -26,11 +26,11 @@ export function NavVertical({
 }) {
   const renderNavVertical = () => (
     <>
-      {slots?.topArea ?? (
+      {/* {slots?.topArea ?? (
         <Box sx={{ pl: 3.5, pt: 2.5, pb: 1 }}>
           <Logo />
         </Box>
-      )}
+      )} */}
 
       <Scrollbar fillContent>
         <NavSectionVertical data={data} cssVars={cssVars} sx={{ px: 2, flex: '1 1 auto' }} />
@@ -42,11 +42,11 @@ export function NavVertical({
 
   const renderNavMini = () => (
     <>
-      {slots?.topArea ?? (
+      {/* {slots?.topArea ?? (
         <Box sx={{ display: 'flex', justifyContent: 'center', py: 2.5 }}>
           <Logo />
         </Box>
-      )}
+      )} */}
 
       <NavSectionMini
         data={data}

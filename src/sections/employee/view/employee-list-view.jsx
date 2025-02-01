@@ -183,7 +183,7 @@ export function EmployeeListView() {
       <CustomBreadcrumbs
         heading="Сотрудники"
         links={[
-          { name: 'Дэшборд', href: paths.dashboard.general.file },
+          { name: 'Дэшборд', href: paths.dashboard.blank },
           { name: 'Сотрудники' },
         ]}
         action={

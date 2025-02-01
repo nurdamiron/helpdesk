@@ -7,7 +7,7 @@ import { CONFIG } from 'src/global-config';
 
 // ----------------------------------------------------------------------
 
-const metadata = { title: `Blank - ${CONFIG.appName}` };
+const metadata = { title: `Заявки - ${CONFIG.appName}` };
 
 export default function Page() {
   return (
@@ -17,7 +17,7 @@ export default function Page() {
       </Helmet>
 
       <Container>
-        <Typography variant="h4">Blank</Typography>
+        <Typography variant="h4">Заявки</Typography>
       </Container>
     </>
   );

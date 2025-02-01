@@ -52,7 +52,7 @@ export function MainLayout({ sx, cssVars, children, slotProps, layoutQuery = 'md
           {/* <NavMobile data={navData} open={open} onClose={onClose} /> */}
 
           {/** @slot Logo */}
-          <Logo />
+          {/* <Logo /> */}
         </>
       ),
       rightArea: (
@@ -120,7 +120,7 @@ export function MainLayout({ sx, cssVars, children, slotProps, layoutQuery = 'md
       /** **************************************
        * @Footer
        *************************************** */
-      footerSection={renderFooter()}
+      // footerSection={renderFooter()}
       /** **************************************
        * @Styles
        *************************************** */

@@ -1,6 +1,6 @@
 {
   "name": "@minimal-kit/vite",
-  "author": "Biz360",
+  "author": "Helpdesk",
   "version": "6.3.0",
   "description": "Vite & JavaScript",
   "private": true,
@@ -133,12 +133,12 @@
   "main": "vite.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nurdamiron/biz360.git"
+    "url": "git+https://github.com/nurdamiron/helpdesk.git"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nurdamiron/biz360/issues"
+    "url": "https://github.com/nurdamiron/helpdesk/issues"
   },
-  "homepage": "https://github.com/nurdamiron/biz360#readme"
+  "homepage": "https://github.com/nurdamiron/helpdesk#readme"
 }

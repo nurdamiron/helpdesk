@@ -15,7 +15,7 @@ export function ProductEditView({ product }) {
         heading="Изменить"
         backHref={paths.dashboard.product.root}
         links={[
-          { name: 'Дашборд', href: paths.dashboard.general.file },
+          { name: 'Дашборд', href: paths.dashboard.blank },
           { name: 'Продукт', href: paths.dashboard.product.root },
           { name: product?.name },
         ]}

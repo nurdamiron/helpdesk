@@ -15,7 +15,7 @@ export function InvoiceCreateView() {
       <CustomBreadcrumbs
         heading="Создать новый счет"
         links={[
-          { name: 'Дашборд', href: paths.dashboard.general.file },
+          { name: 'Дашборд', href: paths.dashboard.blank },
           { name: 'Бухгалтерия', href: paths.dashboard.invoice.root },
           { name: 'Создать новый счет' },
         ]}

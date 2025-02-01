@@ -203,7 +203,7 @@ export function InvoiceListView() {
         <CustomBreadcrumbs
           heading="List"
           links={[
-            { name: 'Дашборд', href: paths.dashboard.general.file },
+            { name: 'Дашборд', href: paths.dashboard.blank },
             { name: 'Бухгалтерия', href: paths.dashboard.invoice.root },
             { name: 'Список' },
           ]}

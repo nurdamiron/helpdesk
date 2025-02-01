@@ -5,7 +5,7 @@ import packageJson from '../package.json';
 // ----------------------------------------------------------------------
 
 export const CONFIG = {
-  appName: 'BIZ360',
+  appName: 'Helpdesk',
   appVersion: packageJson.version,
   serverUrl: import.meta.env.VITE_SERVER_URL ?? 'https://biz360-backend.onrender.com',
   assetsDir: import.meta.env.VITE_ASSETS_DIR ?? '',
@@ -16,7 +16,7 @@ export const CONFIG = {
   auth: {
     method: 'jwt',
     skip: false,
-    redirectPath: paths.dashboard.general.file,
+    redirectPath: paths.dashboard.blank,
   },
   /**
    * Mapbox
