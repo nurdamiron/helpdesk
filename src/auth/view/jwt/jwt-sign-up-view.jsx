@@ -46,7 +46,7 @@ export const SignUpSchema = zod.object({
   }).optional()
 });
 
-const BASE_API_URL = 'https://biz360-backend.onrender.com';
+const BASE_API_URL = 'https://helpdesk-backend-ycoo.onrender.com';
 
 export function JwtSignUpView() {
   const router = useRouter();

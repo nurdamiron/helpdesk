@@ -40,7 +40,7 @@ export const fetcher = async (args) => {
 
 // ----------------------------------------------------------------------
 
-const BASE_API_URL = 'https://biz360-backend.onrender.com';
+const BASE_API_URL = 'https://helpdesk-backend-ycoo.onrender.com';
 
 export const endpoints = {
   chat: '/api/chat',
