@@ -4,6 +4,7 @@ import { paths } from 'src/routes/paths';
 import { CONFIG } from 'src/global-config';
 
 import { SvgColor } from 'src/components/svg-color';
+import { Label } from 'src/components/label';
 
 // ----------------------------------------------------------------------
 
@@ -44,9 +45,9 @@ export const navData = [
   /**
    * Overview
    */
-  // {
-  //   subheader: 'Анализ',
-  //   items: [
+  {
+    subheader: 'Анализ',
+    items: [
   //     { title: 'Дашборд', path: paths.dashboard.blank, icon: ICONS.dashboard },
   //     // { title: 'Дашборд', path: paths.dashboard.root, icon: ICONS.dashboard },
   //     // { title: 'Финансы', path: paths.dashboard.general.ecommerce, icon: ICONS.ecommerce },
@@ -54,14 +55,14 @@ export const navData = [
   //     { title: 'Учет', path: paths.dashboard.general.banking, icon: ICONS.banking },
   //     // { title: 'Booking', path: paths.dashboard.general.booking, icon: ICONS.booking },
   //     // { title: 'Course', path: paths.dashboard.general.course, icon: ICONS.course },
-  //   ],
-  // },
+    ],
+  },
   /**
    * Management
    */
-  // {
-  //   subheader: 'Управление',
-  //   items: [
+  {
+    subheader: 'Управление',
+    items: [
       // {
       //   title: 'Сотрудники',
       //   path: paths.dashboard.employee.list,
@@ -129,11 +130,11 @@ export const navData = [
       //     </Label>
       //   ),
       // },
-      // { title: 'Chat', path: paths.dashboard.chat, icon: ICONS.chat },
+      { title: 'Чат', path: paths.dashboard.chat, icon: ICONS.chat },
       // { title: 'Календарь', path: paths.dashboard.calendar, icon: ICONS.calendar },
       // { title: 'Канбан', path: paths.dashboard.kanban, icon: ICONS.kanban },
-  //   ],
-  // },
+    ],
+  },
   /**
    * Item State
    */

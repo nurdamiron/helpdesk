@@ -7,7 +7,10 @@ import packageJson from '../package.json';
 export const CONFIG = {
   appName: 'Helpdesk',
   appVersion: packageJson.version,
-  serverUrl: import.meta.env.VITE_SERVER_URL ?? 'https://helpdesk-backend-ycoo.onrender.com',
+  serverUrl: import.meta.env.MODE === 'development'
+  ? 'http://localhost:5000'
+  : 'https://helpdesk-backend-ycoo.onrender.com',  
+  
   assetsDir: import.meta.env.VITE_ASSETS_DIR ?? '',
   /**
    * Auth
