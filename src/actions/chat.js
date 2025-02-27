@@ -112,41 +112,41 @@ export async function sendMessage(conversationId, messageData) {
 }
 
 /**
- * Создание новой беседы или тикета.
- * @param {object} conversationData - Данные для создания беседы.
- * @returns {Promise<object>} Результат создания.
+ * Creates a new ticket in the system.
+ * @param {object} ticketData - The ticket data from the form
+ * @returns {Promise<object>} The created ticket/conversation data
  */
-export async function createConversation(conversationData) {
+export async function createTicket(ticketData) {
   try {
-    // Format the data according to what your backend expects
+    // Format the data according to what the backend expects
     const formattedData = {
       conversationData: {
-        subject: conversationData.subject,
+        subject: ticketData.subject,
         type: 'ticket',
         status: 'new',
-        category: conversationData.category || 'other',
-        priority: conversationData.priority || 'medium',
+        category: ticketData.category || 'other',
+        priority: ticketData.priority || 'medium',
         metadata: {
           requester: {
-            full_name: conversationData.fullName,
-            email: conversationData.email,
-            phone: conversationData.phone || null,
-            student_id: conversationData.studentId || null,
-            faculty: conversationData.faculty || null,
-            preferred_contact: conversationData.preferredContact || 'email'
+            full_name: ticketData.fullName,
+            email: ticketData.email,
+            phone: ticketData.phone || null,
+            student_id: ticketData.studentId || null,
+            faculty: ticketData.faculty || null,
+            preferred_contact: ticketData.preferredContact || 'email'
           }
         },
         messages: [
           {
             sender_id: 999, // Placeholder ID that will be updated on the server
-            body: conversationData.description,
+            body: ticketData.description,
             content_type: 'text',
           },
         ]
       }
     };
 
-    // Send the request to create the conversation/ticket
+    // Send the request to create the ticket
     const response = await axios.post(CHAT_ENDPOINT, formattedData);
     
     // Update local cache of conversations if needed
@@ -167,11 +167,10 @@ export async function createConversation(conversationData) {
     
     return response.data;
   } catch (error) {
-    console.error('Error creating conversation:', error);
+    console.error('Error creating ticket:', error);
     throw error;
   }
 }
-
 
 /**
  * Обработка клика по беседе (маркировка как прочитанной).

@@ -9,7 +9,7 @@ import { useRouter } from 'src/routes/hooks';
 
 import { today } from 'src/utils/format-time';
 
-import { sendMessage, createConversation } from 'src/actions/chat';
+import { sendMessage, createTicket } from 'src/actions/chat';
 
 import { Iconify } from 'src/components/iconify';
 
@@ -74,7 +74,7 @@ export function ChatMessageInput({
           await sendMessage(selectedConversationId, messageData);
         } else {
           // If the conversation does not exist
-          const res = await createConversation(conversationData);
+          const res = await createTicket(conversationData);
           router.push(`${paths.dashboard.chat}?id=${res.conversation.id}`);
 
           onAddRecipients([]);

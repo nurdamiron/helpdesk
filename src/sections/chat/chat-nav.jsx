@@ -14,7 +14,7 @@ import { useRouter } from 'src/routes/hooks';
 
 import { today } from 'src/utils/format-time';
 
-import { createConversation } from 'src/actions/chat';
+import { createTicket } from 'src/actions/chat';
 
 import { Iconify } from 'src/components/iconify';
 import { Scrollbar } from 'src/components/scrollbar';
@@ -135,7 +135,7 @@ export function ChatNav({ loading, contacts, collapseNav, conversations, selecte
         });
 
         // Create a new conversation
-        const res = await createConversation(conversationData);
+        const res = await createTicket(conversationData);
 
         if (!res || !res.conversation) {
           console.error('Failed to create conversation');

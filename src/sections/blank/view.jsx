@@ -15,7 +15,7 @@ import FormHelperText from '@mui/material/FormHelperText';
 import Alert from '@mui/material/Alert';
 
 import { DashboardContent } from 'src/layouts/dashboard';
-import { createConversation } from 'src/actions/chat';
+import { createTicket } from 'src/actions/chat';
 
 // University department categories
 const TICKET_CATEGORIES = [
@@ -93,7 +93,7 @@ export function BlankView({ title = 'Заявки', sx }) {
         preferredContact: formData.preferredContact
       };
   
-      const response = await createConversation(ticketData);
+      const response = await createTicket(ticketData);
       
       setSuccess(`Заявка #${response.conversation.id} успешно создана! Мы свяжемся с вами в ближайшее время.`);
       
